@@ -3,16 +3,16 @@
 
 
 
-```bash
+```shell
 wget https://archive.apache.org/dist/hive/hive-2.3.3/apache-hive-2.3.3-bin.tar.gz
 ```
-```bash
+```shell
 tar -xzf apache-hive-2.3.3-bin.tar.gz
 ```
-```bash
+```shell
 sudo mv  apache-hive-2.3.3-bin /usr/local/hive
 ```
-```bash 
+```shell 
 sudo vim .bash_profile
 ```
 5.  Add following variables:
