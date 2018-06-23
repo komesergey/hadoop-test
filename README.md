@@ -1,8 +1,5 @@
 ### How to install Hive
 
-
-
-
 ```shell
 wget https://archive.apache.org/dist/hive/hive-2.3.3/apache-hive-2.3.3-bin.tar.gz
 ```
@@ -141,5 +138,5 @@ hive --service metastore
 ```
 Start hiveserver2:
 ```shell
-hive --service metastore
+hive --service hiveserver2
 ```
