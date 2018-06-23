@@ -17,12 +17,15 @@ public class HiveTest {
             System.exit(1);
         }
 
-        Connection con = DriverManager.getConnection("jdbc:hive2://localhost:10000/default", "hiveuser", "hivepass");
+        Connection con = DriverManager.getConnection("jdbc:hive2://localhost:10000/default", "hiveuser", "hiveuser");
         Statement stmt = con.createStatement();
 
         String tableName = "empdata";
-        stmt.executeQuery("drop table " + tableName);
-        ResultSet res = stmt.executeQuery("create table " + tableName  + " (id int, name string, dept string)");
+
+        stmt.execute("drop table " + tableName);
+
+        ResultSet res;
+        stmt.execute("create table " + tableName  + " (id int, name string, dept string)");
 
         String sql = "show tables '" + tableName + "'";
         System.out.println("Running: " + sql);
