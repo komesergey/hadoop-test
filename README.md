@@ -3,10 +3,18 @@
 
 
 
-1. ```bash wget https://archive.apache.org/dist/hive/hive-2.3.3/apache-hive-2.3.3-bin.tar.gz```
-2. ```bash tar -xzf apache-hive-2.3.3-bin.tar.gz```
-3. ```bash sudo mv  apache-hive-2.3.3-bin /usr/local/hive```
-4. ```bash sudo vim .bash_profile```
+```bash
+wget https://archive.apache.org/dist/hive/hive-2.3.3/apache-hive-2.3.3-bin.tar.gz
+```
+```bash
+tar -xzf apache-hive-2.3.3-bin.tar.gz
+```
+```bash
+sudo mv  apache-hive-2.3.3-bin /usr/local/hive
+```
+```bash 
+sudo vim .bash_profile
+```
 5.  Add following variables:
     ```bash
         export PATH="/usr/local/hadoop/sbin:/usr/local/hadoop/bin:$PATH"
