@@ -90,7 +90,9 @@
     </configuration>
     
     ```
-9.  ```bash start-dfs.sh```
+9.  ```bash
+        start-dfs.sh
+    ```
 10. ```bash start-yarn.sh```
 11. ```bash hdfs dfs -mkdir /tmp```
 12. ```bash hdfs dfs -mkdir -p /user/hive/warehouse```
