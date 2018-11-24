@@ -16,7 +16,7 @@ public class SparkTest {
         sparkConf.setAppName("wordcount");
         sparkConf.setMaster("yarn-client");
         sparkConf.set("spark.yarn.am.memory","1024m");
-        sparkConf.setJars(new String[] { "/home/tony/Development/HadoopTest/target/SparkApp.jar"});
+        sparkConf.setJars(new String[] { "/Users/edwardhyde/IdeaProjects/hadoop-test/target/SparkApp.jar"});
         JavaSparkContext sc = new JavaSparkContext(sparkConf);
 
         // Load our input data.

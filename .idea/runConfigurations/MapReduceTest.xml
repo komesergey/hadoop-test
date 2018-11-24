@@ -1,0 +1,12 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="MapReduceTest" type="Application" factoryName="Application" nameIsGenerated="true">
+    <envs>
+      <env name="HADOOP_MAPRED_HOME" value="/usr/local/hadoop" />
+    </envs>
+    <option name="MAIN_CLASS_NAME" value="MapReduceTest" />
+    <module name="hadoop-test" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

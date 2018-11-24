@@ -67,7 +67,7 @@ public class MapReduceTest implements Serializable {
 
         TextOutputFormat.setOutputPath(job, out);
 
-        job.setJar("/home/tony/Development/HadoopTest/target/MapReduceApp.jar");
+        job.setJar("/Users/edwardhyde/IdeaProjects/hadoop-test/target/MapReduceApp.jar");
         job.waitForCompletion(true);
 
     }

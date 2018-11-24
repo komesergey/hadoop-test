@@ -16,6 +16,5 @@ public class HdfsTest {
         FileSystem fs = FileSystem.get(conf);
         fs.copyFromLocalFile(false, new Path(localFile.toURI()), new Path("/big.txt"));
 
-
     }
 }
